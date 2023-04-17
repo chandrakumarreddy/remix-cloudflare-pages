@@ -6,6 +6,9 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import acroStyles from "@arco-design/web-react/dist/css/arco.css";
+
+export const links = () => [{ rel: "stylesheet", href: acroStyles }];
 
 export default function App() {
   return (
